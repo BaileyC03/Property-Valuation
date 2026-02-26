@@ -29,12 +29,12 @@ jobs:
           cache-dependency-path: frontend/package-lock.json
 
       - name: Install dependencies
-        run: cd frontend && npm ci
+        run: cd frontend && npm install
 
       - name: Build
         run: cd frontend && npm run build
         env:
-          REACT_APP_API_URL: https://uk-property-valuation-api.onrender.com
+          REACT_APP_API_URL: https://property-valuation-xwp9.onrender.com
 
       - uses: actions/configure-pages@v4
 
