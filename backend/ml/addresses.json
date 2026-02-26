@@ -1,0 +1,229 @@
+{
+  "addresses": [
+    {
+      "id": 1,
+      "address": "2 Victoria Ave, PO7 5BN",
+      "postcode": "PO7 5BN",
+      "lat": 50.7908,
+      "lon": -1.1333,
+      "region": "Isle of Wight",
+      "avg_price": 300000
+    },
+    {
+      "id": 2,
+      "address": "10 Downing Street, SW1A 2AA",
+      "postcode": "SW1A 2AA",
+      "lat": 51.5033,
+      "lon": -0.1276,
+      "region": "London - Westminster",
+      "avg_price": 3500000
+    },
+    {
+      "id": 3,
+      "address": "Buckingham Palace, SW1A 1AA",
+      "postcode": "SW1A 1AA",
+      "lat": 51.5007,
+      "lon": -0.1415,
+      "region": "London - Royal",
+      "avg_price": 4000000
+    },
+    {
+      "id": 4,
+      "address": "Tower of London, EC3N 4AB",
+      "postcode": "EC3N 4AB",
+      "lat": 51.5055,
+      "lon": -0.0754,
+      "region": "London - East End",
+      "avg_price": 2800000
+    },
+    {
+      "id": 5,
+      "address": "Abbey Road, NW8 9AY",
+      "postcode": "NW8 9AY",
+      "lat": 51.5396,
+      "lon": -0.1770,
+      "region": "London - North West",
+      "avg_price": 2200000
+    },
+    {
+      "id": 6,
+      "address": "Oxford Street, W1A 1AA",
+      "postcode": "W1A 1AA",
+      "lat": 51.5154,
+      "lon": -0.1404,
+      "region": "London - Central",
+      "avg_price": 2500000
+    },
+    {
+      "id": 7,
+      "address": "Big Ben, SW1A 0AA",
+      "postcode": "SW1A 0AA",
+      "lat": 51.4975,
+      "lon": -0.1248,
+      "region": "London - Westminster",
+      "avg_price": 3200000
+    },
+    {
+      "id": 8,
+      "address": "Trafalgar Square, WC2N 5DN",
+      "postcode": "WC2N 5DN",
+      "lat": 51.5080,
+      "lon": -0.1281,
+      "region": "London - Central",
+      "avg_price": 2700000
+    },
+    {
+      "id": 9,
+      "address": "Manchester City Centre, M1 1AD",
+      "postcode": "M1 1AD",
+      "lat": 53.4808,
+      "lon": -2.2426,
+      "region": "Manchester",
+      "avg_price": 450000
+    },
+    {
+      "id": 10,
+      "address": "Birmingham City Centre, B1 1AA",
+      "postcode": "B1 1AA",
+      "lat": 52.5099,
+      "lon": -1.8849,
+      "region": "Birmingham",
+      "avg_price": 380000
+    },
+    {
+      "id": 11,
+      "address": "Edinburgh City Centre, EH1 3AA",
+      "postcode": "EH1 3AA",
+      "lat": 55.9533,
+      "lon": -3.1883,
+      "region": "Edinburgh",
+      "avg_price": 420000
+    },
+    {
+      "id": 12,
+      "address": "Glasgow City Centre, G2 1BB",
+      "postcode": "G2 1BB",
+      "lat": 55.8642,
+      "lon": -4.2518,
+      "region": "Glasgow",
+      "avg_price": 340000
+    },
+    {
+      "id": 13,
+      "address": "Bristol City Centre, BS1 1AA",
+      "postcode": "BS1 1AA",
+      "lat": 51.4545,
+      "lon": -2.5879,
+      "region": "Bristol",
+      "avg_price": 520000
+    },
+    {
+      "id": 14,
+      "address": "Liverpool City Centre, L1 1AA",
+      "postcode": "L1 1AA",
+      "lat": 53.4084,
+      "lon": -2.9916,
+      "region": "Liverpool",
+      "avg_price": 310000
+    },
+    {
+      "id": 15,
+      "address": "Leeds City Centre, LS1 1AA",
+      "postcode": "LS1 1AA",
+      "lat": 53.8008,
+      "lon": -1.5491,
+      "region": "Leeds",
+      "avg_price": 380000
+    },
+    {
+      "id": 16,
+      "address": "Newcastle City Centre, NE1 1AA",
+      "postcode": "NE1 1AA",
+      "lat": 54.9783,
+      "lon": -1.6178,
+      "region": "Newcastle",
+      "avg_price": 290000
+    },
+    {
+      "id": 17,
+      "address": "Brighton Seafront, BN1 1AA",
+      "postcode": "BN1 1AA",
+      "lat": 50.8611,
+      "lon": -0.0820,
+      "region": "Brighton",
+      "avg_price": 650000
+    },
+    {
+      "id": 18,
+      "address": "Cambridge City Centre, CB1 1AA",
+      "postcode": "CB1 1AA",
+      "lat": 52.2044,
+      "lon": 0.1235,
+      "region": "Cambridge",
+      "avg_price": 580000
+    },
+    {
+      "id": 19,
+      "address": "Oxford City Centre, OX1 1AA",
+      "postcode": "OX1 1AA",
+      "lat": 51.7520,
+      "lon": -1.2577,
+      "region": "Oxford",
+      "avg_price": 620000
+    },
+    {
+      "id": 20,
+      "address": "Bath City Centre, BA1 1AA",
+      "postcode": "BA1 1AA",
+      "lat": 51.3825,
+      "lon": -2.3597,
+      "region": "Bath",
+      "avg_price": 480000
+    },
+    {
+      "id": 21,
+      "address": "York City Centre, YO1 6AA",
+      "postcode": "YO1 6AA",
+      "lat": 53.9581,
+      "lon": -1.0817,
+      "region": "York",
+      "avg_price": 420000
+    },
+    {
+      "id": 22,
+      "address": "Winchester City Centre, SO23 8AA",
+      "postcode": "SO23 8AA",
+      "lat": 51.0651,
+      "lon": -1.3158,
+      "region": "Winchester",
+      "avg_price": 550000
+    },
+    {
+      "id": 23,
+      "address": "Nottingham City Centre, NG1 1AA",
+      "postcode": "NG1 1AA",
+      "lat": 52.9548,
+      "lon": -1.1581,
+      "region": "Nottingham",
+      "avg_price": 340000
+    },
+    {
+      "id": 24,
+      "address": "Leicester City Centre, LE1 1AA",
+      "postcode": "LE1 1AA",
+      "lat": 52.6369,
+      "lon": -1.1398,
+      "region": "Leicester",
+      "avg_price": 320000
+    },
+    {
+      "id": 25,
+      "address": "Coventry City Centre, CV1 1AA",
+      "postcode": "CV1 1AA",
+      "lat": 52.4081,
+      "lon": -1.5107,
+      "region": "Coventry",
+      "avg_price": 300000
+    }
+  ]
+}

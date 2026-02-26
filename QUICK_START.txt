@@ -1,0 +1,95 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                     QUICK START - 3 SIMPLE STEPS                           ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+Your project is at: /home/user/uk-property-valuation/
+
+STEP 1️⃣  - Install System Package (Run in Terminal)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Copy and paste this command:
+
+    sudo apt-get update && sudo apt-get install -y python3.12-venv
+
+When prompted, enter your password and press Enter.
+
+This takes about 1 minute. Wait for "Setting up python3.12-venv" message.
+
+
+STEP 2️⃣  - Setup Backend (Terminal 1)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+After venv installs, run these commands:
+
+    cd /home/user/uk-property-valuation/backend
+    python3 -m venv venv
+    source venv/bin/activate
+    pip install -r requirements.txt
+    python ml/train_model.py
+    python app.py
+
+Wait for this message:
+    "Running on http://0.0.0.0:5000"
+
+Then LEAVE THIS TERMINAL RUNNING.
+
+
+STEP 3️⃣  - Setup Frontend (Terminal 2 - NEW WINDOW)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Open a NEW terminal window and run:
+
+    cd /home/user/uk-property-valuation/frontend
+    npm install
+    npm start
+
+Wait for it to say "Compiled successfully!"
+
+A browser window should open automatically at http://localhost:3000
+
+If not, open it manually: http://localhost:3000
+
+
+TEST IT 🧪
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+In the form, fill in:
+  Address: 10 Downing Street, London
+  Beds: 6
+  Baths: 2
+  Ensuite: 1
+  Detached: ✓ (check the box)
+
+Click "Get Valuation"
+
+You should see:
+  Min: ~£2.9M
+  Avg: ~£3.4M
+  Max: ~£3.9M
+  Monthly Rent: ~£17k
+
+That's it! 🎉
+
+
+STOP THE APP 🛑
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Backend: Press Ctrl+C in Terminal 1
+Frontend: Press Ctrl+C in Terminal 2
+
+
+HELP & DOCS 📚
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+If you hit issues, check these files in the project directory:
+
+  START_HERE.md       - Detailed instructions & troubleshooting
+  INSTALL.md          - Installation guide
+  README.md           - Features & API docs
+  SETUP.md            - Configuration details
+  PROJECT_SUMMARY.md  - Technical architecture
+
+
+That's all! 🏠✨
+
+Questions? See START_HERE.md in /home/user/uk-property-valuation/
